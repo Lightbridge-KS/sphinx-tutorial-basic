@@ -1,18 +1,19 @@
-API Reference
-============
+# API Reference
 
-Statistics Module
----------------
+## Statistics Module
 
+```{eval-rst}
 .. automodule:: mathtools.statistics
    :members:
    :undoc-members:
    :show-inheritance:
+```
 
-Geometry Module
--------------
+## Geometry Module
 
+```{eval-rst}
 .. automodule:: mathtools.geometry
    :members:
    :undoc-members:
    :show-inheritance:
+```
