@@ -26,12 +26,17 @@ extensions = [
     'sphinx.ext.napoleon',     # Support NumPy and Google style docstrings
     'sphinx.ext.viewcode',     # Add links to highlighted source code
     'sphinx.ext.githubpages',  # Create .nojekyll file for GitHub Pages
+    'myst_parser'              # To parse markdown file
 ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
+# Add .md files as source files
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown'
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
