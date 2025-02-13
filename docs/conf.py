@@ -26,7 +26,7 @@ extensions = [
     'sphinx.ext.napoleon',     # Support NumPy and Google style docstrings
     'sphinx.ext.viewcode',     # Add links to highlighted source code
     'sphinx.ext.githubpages',  # Create .nojekyll file for GitHub Pages
-    'myst_parser'              # To parse markdown file
+    'myst_parser',              # To parse markdown file
 ]
 
 templates_path = ['_templates']
@@ -45,3 +45,11 @@ source_suffix = {
 html_theme = 'sphinx_rtd_theme'  # Read the Docs theme
 html_static_path = ['_static']
 
+html_theme_options = {
+    'display_version': True,
+    'style_external_links': True,
+    # Add GitHub URL - replace with your repo URL
+    'repository_url': 'https://github.com/Lightbridge-KS/sphinx-tutorial-basic',
+    'repository_branch': 'main',
+    'use_repository_button': True
+}
